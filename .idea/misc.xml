@@ -3,11 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudio Projects Kotlin/Assignment/app/src/main/res/layout/activity_details_view.xml" value="0.13229166666666667" />
+        <entry key="..\:/AndroidStudio Projects Kotlin/Assignment/app/src/main/res/layout/activity_main.xml" value="0.115625" />
+        <entry key="..\:/AndroidStudio Projects Kotlin/Assignment/app/src/main/res/layout/survey_etails.xml" value="0.13125" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/activity_main.xml" value="0.32916666666666666" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_16_PREVIEW" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
