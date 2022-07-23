@@ -2,29 +2,46 @@ package com.example.myapplication;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import org.junit.jupiter.api.Test;
+
+
 class DetailsTest {
 
-    @org.junit.jupiter.api.Test
+    @Test
     void getName() {
+//        assertEquals(5 + 2, 7);
+        Details d=new Details("20","Female","Amrutha","Injections,Tablets","20BCE7391","Vaccinated");
+        assertEquals("Amrutha","Amrutha");
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void getRegNum() {
+        Details d=new Details("20","Female","Amrutha","Injections,Tablets","20BCE7391","Vaccinated");
+        assertEquals("20BCE7391",d.getRegNum());
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void getOpt_vac() {
+        Details d=new Details("20","Female","Amrutha","Injections,Tablets","20BCE7391","Vaccinated");
+        assertEquals("Vaccinated",d.getOpt_vac());
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void getGender() {
+        Details d=new Details("20","Female","Amrutha","Injections,Tablets","20BCE7391","Vaccinated");
+        assertEquals("Female",d.getGender());
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void getAge() {
+        Details d=new Details("20","Female","Amrutha","Injections,Tablets","20BCE7391","Vaccinated");
+        assertEquals("20",d.getAge());
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void getPreferences() {
+        Details d=new Details("20","Female","Amrutha","Injections,Tablets","20BCE7391","Vaccinated");
+        assertEquals("Injections,Tablets",d.getPreferences());
     }
+
 }
